@@ -1,0 +1,88 @@
+[0m20:25:09.421125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd97f4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd7890ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd7890f10>]}
+
+
+============================== 20:25:09.424655 | 4b12420d-286a-4fe7-b183-f68805837ae5 ==============================
+[0m20:25:09.424655 [info ] [MainThread]: Running with dbt=1.6.2
+[0m20:25:09.425281 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hguber/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:25:09.425805 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/hguber/.dbt
+[0m20:25:09.426536 [debug] [MainThread]: Command `dbt debug` succeeded at 20:25:09.426403 after 0.01 seconds
+[0m20:25:09.426870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd97f4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd7890f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fd7890dc0>]}
+[0m20:25:09.427199 [debug] [MainThread]: Flushing usage events
+[0m20:39:05.731756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb688316670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb684c88e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb684c88eb0>]}
+
+
+============================== 20:39:05.734565 | 7e069cad-ea72-4a88-8e9f-cc15da944190 ==============================
+[0m20:39:05.734565 [info ] [MainThread]: Running with dbt=1.6.2
+[0m20:39:05.735192 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/hguber/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug --config-dir', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:39:05.735688 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/hguber/.dbt
+[0m20:39:05.736419 [debug] [MainThread]: Command `dbt debug` succeeded at 20:39:05.736309 after 0.01 seconds
+[0m20:39:05.736747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb688316670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb684c88f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb684c88f70>]}
+[0m20:39:05.737072 [debug] [MainThread]: Flushing usage events
+[0m20:43:37.581253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f136c2794c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1368bebe20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1368bebe50>]}
+
+
+============================== 20:43:37.584173 | 13b653c4-4754-491a-b685-4684dee1aee2 ==============================
+[0m20:43:37.584173 [info ] [MainThread]: Running with dbt=1.6.2
+[0m20:43:37.584856 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hguber/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m20:43:37.585476 [info ] [MainThread]: dbt version: 1.6.2
+[0m20:43:37.585851 [info ] [MainThread]: python version: 3.9.17
+[0m20:43:37.586300 [info ] [MainThread]: python path: /home/hguber/miniconda3/envs/zoomcamp/bin/python
+[0m20:43:37.586754 [info ] [MainThread]: os info: Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31
+[0m20:43:39.186004 [info ] [MainThread]: Using profiles dir at /home/hguber/.dbt
+[0m20:43:39.186650 [info ] [MainThread]: Using profiles.yml file at /home/hguber/.dbt/profiles.yml
+[0m20:43:39.187042 [info ] [MainThread]: Using dbt_project.yml file at /home/hguber/week4/dbt_project.yml
+[0m20:43:39.187473 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m20:43:39.188136 [debug] [MainThread]: Command `dbt debug` failed at 20:43:39.188032 after 1.61 seconds
+[0m20:43:39.188522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f136c2794c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13477bda30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1368ba0f70>]}
+[0m20:43:39.188935 [debug] [MainThread]: Flushing usage events
+[0m20:54:30.835242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefe9ee4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefb360e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefb360e80>]}
+
+
+============================== 20:54:30.838161 | c060a46a-2fdc-49a8-b4ba-f3e94a261d6b ==============================
+[0m20:54:30.838161 [info ] [MainThread]: Running with dbt=1.6.2
+[0m20:54:30.838776 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hguber/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:30.839441 [info ] [MainThread]: dbt version: 1.6.2
+[0m20:54:30.839813 [info ] [MainThread]: python version: 3.9.17
+[0m20:54:30.840231 [info ] [MainThread]: python path: /home/hguber/miniconda3/envs/zoomcamp/bin/python
+[0m20:54:30.840646 [info ] [MainThread]: os info: Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.31
+[0m20:54:31.450392 [info ] [MainThread]: Using profiles dir at /home/hguber/.dbt
+[0m20:54:31.450962 [info ] [MainThread]: Using profiles.yml file at /home/hguber/.dbt/profiles.yml
+[0m20:54:31.451427 [info ] [MainThread]: Using dbt_project.yml file at /home/hguber/week4/dbt_project.yml
+[0m20:54:31.451939 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m20:54:31.452610 [debug] [MainThread]: Command `dbt debug` failed at 20:54:31.452482 after 0.63 seconds
+[0m20:54:31.452960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefe9ee4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fced9f38e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefb315280>]}
+[0m20:54:31.453291 [debug] [MainThread]: Flushing usage events
+[0m20:55:13.737194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f28705274c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f286ce99e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f286ce99e80>]}
+
+
+============================== 20:55:13.740212 | 186680dc-b6bd-408c-b5f2-e109eb0cd5e0 ==============================
+[0m20:55:13.740212 [info ] [MainThread]: Running with dbt=1.6.2
+[0m20:55:13.740928 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hguber/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug --config-dir', 'send_anonymous_usage_stats': 'True'}
+[0m20:55:13.741441 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/hguber/.dbt
+[0m20:55:13.742147 [debug] [MainThread]: Command `dbt debug` succeeded at 20:55:13.742019 after 0.01 seconds
+[0m20:55:13.742498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f28705274c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f286ce501c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f286ce500a0>]}
+[0m20:55:13.742812 [debug] [MainThread]: Flushing usage events
+[0m02:38:56.902652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7db1ece50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7d9289fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7d9289fa0>]}
+
+
+============================== 02:38:56.915320 | 70a38538-8002-49ae-a233-23dd5c6d821c ==============================
+[0m02:38:56.915320 [info ] [MainThread]: Running with dbt=1.6.2
+[0m02:38:56.919955 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/hguber/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m02:38:56.922630 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/hguber/week4/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m02:38:56.925029 [debug] [MainThread]: Command `dbt test` failed at 02:38:56.924721 after 0.05 seconds
+[0m02:38:56.925772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7db1ece50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7d9289ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe7d923c400>]}
+[0m02:38:56.926605 [debug] [MainThread]: Flushing usage events
